@@ -5,19 +5,19 @@ int main()
 {
 	char c;
 	setlocale(LC_ALL, "RUS");
-	printf("Введите цифру '1' or букву 'a' :");
+	printf("Р’РІРµРґРёС‚Рµ С†РёС„СЂСѓ '1' or Р±СѓРєРІСѓ 'a' :");
 	scanf("%c",&c); 
 	switch (c)
 	{
 		case '1' :
-			printf("Это цифра.\n");
+			printf("Р­С‚Рѕ С†РёС„СЂР°.\n");
 			break;
 		case 'a' :
-			printf("Это буква.\n");
+			printf("Р­С‚Рѕ Р±СѓРєРІР°.\n");
 			break;
 		default:
 
-			printf("Неизвестный символ\n");	
+			printf("РќРµРёР·РІРµСЃС‚РЅС‹Р№ СЃРёРјРІРѕР»\n");	
 	}
 		
 	return 0;
