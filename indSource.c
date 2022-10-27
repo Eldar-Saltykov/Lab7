@@ -5,7 +5,7 @@ void main()
 {
 	int x;
 	setlocale(0, "");
-	printf("Введиите цифру от 1 до 9:\n");
+	printf("Введиите цифру :\n");
 	scanf("%d", &x);
 	switch (x)
 	{
